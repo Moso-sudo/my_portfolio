@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+
 import {
   Card,
   CardContent,
@@ -8,8 +9,10 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { FaGraduationCap } from "react-icons/fa";
+import { LuGraduationCap } from "react-icons/lu";
 import { BriefcaseIcon, CodeIcon } from "lucide-react";
+import { GiSadCrab } from "react-icons/gi";
+import { FaGithub } from "react-icons/fa";
 
 const Experience: React.FC = () => {
   const experiences = [
@@ -19,7 +22,7 @@ const Experience: React.FC = () => {
       location: "Maseno University",
       duration: "August 2019 - Present",
       description: "",
-      icon: <CodeIcon className="w-6 h-6" />,
+      icon: <LuGraduationCap className="w-6 h-6" />,
       skills: ["Mathematics", "Computer Science"],
     },
     {
@@ -41,7 +44,7 @@ const Experience: React.FC = () => {
       description:
         "I have have a one year experience in rust. with rust i have used frameworks like; Actix-web(a web framework for building rust applications), askam(used for templating), Diesel(used diesel for especially connecting to prostgresSql database).I find Rust to be a good language of choice for building blockchain based applications since its a safe, fast and robust language. ",
         
-      icon: <BriefcaseIcon className="w-6 h-6" />,
+      icon: <GiSadCrab  className="w-6 h-6" />,
       skills: ["Rust", "Actix-web", "Askama", "Diesel"],
     },
     {
@@ -52,7 +55,7 @@ const Experience: React.FC = () => {
       description:
         "I love love to contribute to open source projects. i began my journey of open source contribution last year and through that you get improve you expertise and even your knowledg",
         
-      icon: <BriefcaseIcon className="w-6 h-6" />,
+      icon: <FaGithub className="w-6 h-6" />,
       skills: ["Rust", "Actix-web", "Askama", "Diesel"],
     },
     {
@@ -114,7 +117,7 @@ const Experience: React.FC = () => {
         className="text-3xl sm:text-4xl font-bold mb-8 text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400"
         variants={titleVariants}
       >
-        Educaion & Experience
+        Education & Experience
       </motion.h2>
 
       <div className="space-y-6">

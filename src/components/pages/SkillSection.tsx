@@ -33,7 +33,7 @@ const SkillsSection: React.FC = () => {
   }, [controls, inView]);
 
   const containerVariants = {
-    hidden: { opacity: 0, y: 50 },
+    hidden: { opacity: 1, y: 50 },
     visible: {
       opacity: 1,
       y: 0,
@@ -64,7 +64,7 @@ const SkillsSection: React.FC = () => {
       animate={controls}
     >
       <motion.h2
-        className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-8 text-center text-gray-800 dark:text-gray-200"
+        className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-8 text-center text-gray-800 dark:text-blue-200"
         variants={itemVariants}
       >
         Skills
@@ -93,7 +93,7 @@ const SkillsSection: React.FC = () => {
             >
               <Badge
                 variant="outline"
-                className="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-300 text-sm sm:text-base px-3 py-1 rounded-full transition-colors duration-300 hover:bg-gray-200 dark:hover:bg-gray-700"
+                className="bg-gray-100 dark:bg-gray-800 text-blue-800 dark:text-gray-300 text-sm sm:text-base px-3 py-1 rounded-full transition-colors duration-300 hover:bg-gray-200 dark:hover:bg-gray-700"
               >
                 {slug.charAt(0).toUpperCase() + slug.slice(1)}
               </Badge>

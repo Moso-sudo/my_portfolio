@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactTyped } from "react-typed";
 import { motion } from "framer-motion";
 import BoxReveal from "@/components/magicui/box-reveal";
 
@@ -51,18 +52,24 @@ const GradientText: React.FC<GradientTextProps> = ({ text, className }) => (
 );
 
 const SubTitle: React.FC = () => (
-  <motion.div
-    className="w-full text-center mt-4 flex justify-center"
-    initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.8, delay: 0.4 }}
-  >
+  // <motion.div
+  //   className="w-full text-center mt-4 flex justify-center"
+  //   initial={{ opacity: 0, y: 20 }}
+  //   animate={{ opacity: 1, y: 0 }}
+  //   transition={{ duration: 0.8, delay: 0.4 }}
+  // >
     <BoxReveal boxColor="#3b82f6" duration={0.5}>
-      <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-700 dark:text-gray-300 text-center">
-      Smart Contract Developer || full Stack web Developer
+      <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold  text-center">
+      {/* Smart Contract Developer || full Stack web Developer */}
+      <ReactTyped strings={['App Developer,' ,'Smart Contract Developer,', 'Web Developer,',]}
+                className=' text-orange  fond-large md:text-3xl sm:text-4xl text-xl md:pl-4 pl-2' 
+                typeSpeed={50}
+                backSpeed={50}
+                loop
+                />
       </p>
     </BoxReveal>
-  </motion.div>
+  // </motion.div>
 );
 
 const Header: React.FC = () => {

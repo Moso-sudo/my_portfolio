@@ -18,9 +18,9 @@ const Footer: React.FC = () => {
           className="flex justify-center items-center space-x-4 text-sm"
         >
           <a
-            href="tel:+919446626926"
+            href="tel:+245742606050"
             className="p-2 hover:text-purple-600 transition-colors"
-            aria-label="Call Rijo Sebastian"
+            aria-label="Call Moses Mulumia"
           >
             <Phone className="h-5 w-5" />
           </a>

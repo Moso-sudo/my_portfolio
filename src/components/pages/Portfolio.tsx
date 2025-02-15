@@ -9,6 +9,7 @@ import Experience from "./Experience";
 import SkillsSection from "./SkillSection";
 import ProjectsSection from "./Project";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 interface AnimatedSectionProps {
   children: ReactNode;
@@ -82,37 +83,45 @@ const AnimatedSection:React.FC<AnimatedSectionProps> = ({ children }) => {
 
 function Portfolio() {
   return (
+    <>
+    <Navbar/>
     <div className="min-h-screen flex flex-col items-center justify-center">
-      <ParticlesDemo />
-      <DockDemo />
-      <div className="flex flex-col items-center justify-center p-2 w-full">
-        <motion.div
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="w-full flex justify-center"
-        >
-          <div className="w-full max-w-6xl">
-            <Header />
-          </div>
-        </motion.div>
-        <AnimatedSection>
-          <About />
-        </AnimatedSection>
-        <AnimatedSection>
-          <Experience />
-        </AnimatedSection>
-        <AnimatedSection>
-          <SkillsSection />
-        </AnimatedSection>
-        <AnimatedSection>
-          <ProjectsSection />
-        </AnimatedSection>
-        <AnimatedSection>
-          <Footer />
-        </AnimatedSection>
-      </div>
+    
+    <ParticlesDemo />
+    <DockDemo />
+    <div className="flex flex-col items-center justify-center p-2 w-full">
+      <motion.div
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        className="w-full flex justify-center"
+      >
+         
+        <div className="w-full max-w-6xl">
+          <Header />
+        </div>
+      </motion.div>
+     
+      <AnimatedSection>
+        <About />
+      </AnimatedSection>
+      <AnimatedSection>
+        <Experience />
+      </AnimatedSection>
+      <AnimatedSection>
+        <SkillsSection />
+      </AnimatedSection>
+      <AnimatedSection>
+        <ProjectsSection />
+      </AnimatedSection>
+      <AnimatedSection>
+        <Footer />
+      </AnimatedSection>
     </div>
+  </div>
+    
+    </>
+    
   );
 }
 
