@@ -19,7 +19,7 @@ const Experience: React.FC = () => {
    {
       title: "Bsc. Mathematics & Computer Science",
       company: "I'm currently persuing a Bachelors Degree in Mathematics & Computer science at ",
-      location: "Maseno University",
+      location: "Maseno University and will be graduating this year (December, 2025)🎓,  ",
       duration: "August 2019 - Present",
       description: "",
       icon: <LuGraduationCap className="w-6 h-6" />,
@@ -31,7 +31,7 @@ const Experience: React.FC = () => {
       location: "Bootstrap Developers with tools and learning resources to build Dapps",
       duration: "March 2022 -date ",
       description:
-        "over the years I have developed a strong understanding in Blockchain and its use cases among them being(dApps,DEFI, DAO's, NFTS) even Writting smart contacts in various blockchain ecosystem incluing, Near Blockchain, Cartesi Blockchain-(optimistic rollup layer 2 protocol), Starknet and Lisk. i have as well contributed to already running project on Blockchain and recieved Bounties. simply, i love to write smart contacts for blockchain. ",
+        "Over the years I have developed a strong understanding in Blockchain and its use cases among them being(dApps,DEFI, DAO's, NFTS) even Writting smart contacts in various blockchain ecosystem incluing, Near Blockchain, Cartesi Blockchain-(optimistic rollup layer 2 protocol), Starknet and Lisk. i have as well contributed to already running project on Blockchain and recieved Bounties. simply, i love to write smart contacts for blockchain. I would as well love to be a Fullstark smart contract Tutor/Instructor. Graduated from Starknet Basecamp III and recieved a Graduation SPOK🎉 and also have a certificate from Near Blockchain as a Smart Contract Developer.🥳  ",
         
       icon: <BriefcaseIcon className="w-6 h-6" />,
       skills: ["cairo for starknet ", "React/Typecsript for developing frontend for smart contracts", "Solidity for Ehereum", "Ethers.js"],
@@ -42,7 +42,7 @@ const Experience: React.FC = () => {
       location: "",
       duration: "March 2022 -date ",
       description:
-        "I have have a one year experience in rust. with rust i have used frameworks like; Actix-web(a web framework for building rust applications), askam(used for templating), Diesel(used diesel for especially connecting to prostgresSql database).I find Rust to be a good language of choice for building blockchain based applications since its a safe, fast and robust language. ",
+        "I have have a one year experience in rust. with rust i have used frameworks like; Actix-web(a web framework for building rust applications), askam(used for templating), Diesel(used diesel for especially connecting to prostgresSql database).I find Rust to be a good language of choice for building blockchain based applications since its a safe, fast and robust language. and do not have a Garbage collector but rather lets you handle storage yourself.",
         
       icon: <GiSadCrab  className="w-6 h-6" />,
       skills: ["Rust", "Actix-web", "Askama", "Diesel"],
@@ -53,7 +53,7 @@ const Experience: React.FC = () => {
       location: "",
       duration: "March 2022 -date ",
       description:
-        "I love love to contribute to open source projects. i began my journey of open source contribution last year and through that you get improve you expertise and even your knowledg",
+        "I llove to contribute to open source projects. i began my journey of open source contribution last year and through that you get improve you expertise and even your knowledge and even recieved a reward for my contribution through onlydust(OdBoost)",
         
       icon: <FaGithub className="w-6 h-6" />,
       skills: ["Rust", "Actix-web", "Askama", "Diesel"],
@@ -147,6 +147,7 @@ const Experience: React.FC = () => {
               <CardContent>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
                   {exp.description}
+                  
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {exp.skills.map((skill, skillIndex) => (

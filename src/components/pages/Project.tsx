@@ -29,11 +29,11 @@ const projects: Project[] = [
       "Redux Persist",
     ],
     links: [
-      {
-        type: "Website",
-        href: "https://turf-spot.vercel.app/",
-        icon: <Globe className="w-8 h-8" />,
-      },
+      // {
+      //   type: "Website",
+      //   href: "https://turf-spot.vercel.app/",
+      //   icon: <Globe className="w-8 h-8" />,
+      // },
       // {
       //   type: "Source",
       //   href: "https://github.com",
@@ -55,11 +55,11 @@ const projects: Project[] = [
       "Mantine UI",
     ],
     links: [
-      {
-        type: "Website",
-        href: "https://expense-log.vercel.app/",
-        icon: <Globe className="w-8 h-8" />,
-      },
+      // {
+      //   type: "Website",
+      //   href: "https://expense-log.vercel.app/",
+      //   icon: <Globe className="w-8 h-8" />,
+      // },
       // {
       //   type: "Source",
       //   href: "https://github.com/RijoKsd/Expense-Tracker",
@@ -82,11 +82,11 @@ const projects: Project[] = [
       "Socket.io",
     ],
     links: [
-      {
-        type: "Website",
-        href: "https://chat-application-in4i.onrender.com/",
-        icon: <Globe className="w-8 h-8" />,
-      },
+      // {
+      //   type: "Website",
+      //   href: "https://chat-application-in4i.onrender.com/",
+      //   icon: <Globe className="w-8 h-8" />,
+      // },
       // {
       //   type: "Source",
       //   href: "https://github.com/RijoKsd/Chat-Application",
@@ -109,11 +109,11 @@ const projects: Project[] = [
       "Zustand",
     ],
     links: [
-      {
-        type: "Website",
-        href: "https://food-delivery-app-fe.vercel.app/",
-        icon: <Globe className="w-8 h-8" />,
-      },
+      // {
+      //   type: "Website",
+      //   href: "https://food-delivery-app-fe.vercel.app/",
+      //   icon: <Globe className="w-8 h-8" />,
+      // },
       // {
       //   type: "Source",
       //   href: "https://github.com/RijoKsd/food-delivery-app",
@@ -134,11 +134,11 @@ const projects: Project[] = [
       "Bootstrap",
     ],
     links: [
-      {
-        type: "Website",
-        href: "https://todo-app-mern-fe.vercel.app/",
-        icon: <Globe className="w-8 h-8" />,
-      },
+      // {
+      //   type: "Website",
+      //   href: "https://todo-app-mern-fe.vercel.app/",
+      //   icon: <Globe className="w-8 h-8" />,
+      // },
       // {
       //   type: "Source",
       //   href: "https://github.com/RijoKsd/Todo-App-Mern",
@@ -159,11 +159,11 @@ const projects: Project[] = [
       "Redux Persist",
     ],
     links: [
-      {
-        type: "Website",
-        href: "https://react-estore-app.vercel.app/",
-        icon: <Globe className="w-8 h-8" />,
-      },
+      // {
+      //   type: "Website",
+      //   href: "https://react-estore-app.vercel.app/",
+      //   icon: <Globe className="w-8 h-8" />,
+      // },
       // {
       //   type: "Source",
       //   href: "https://github.com/RijoKsd/E-Store",
