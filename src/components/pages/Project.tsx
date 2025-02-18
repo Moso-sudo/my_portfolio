@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import ProjectCard from "./ProjectCard";
-import { Globe, Github } from "lucide-react";
+// import { Globe, Github } from "lucide-react";
 
 import chatImage from "../../assets/projects/chat.png";
 import turfImage from "../../assets/projects/turf.png";
