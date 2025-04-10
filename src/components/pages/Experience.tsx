@@ -31,7 +31,7 @@ const Experience: React.FC = () => {
       location: "Bootstrap Developers with tools and learning resources to build Dapps",
       duration: "March 2022 -date ",
       description:
-        "Over the years I have developed a strong understanding in Blockchain and its use cases among them being(dApps,DEFI, DAO's, NFTS) even Writting smart contacts in various blockchain ecosystem incluing, Near Blockchain, Cartesi Blockchain-(optimistic rollup layer 2 protocol), Starknet and Lisk. i have as well contributed to already running project on Blockchain and recieved Bounties. simply, i love to write smart contacts for blockchain. I would as well love to be a Fullstark smart contract Tutor/Instructor. Graduated from Starknet Basecamp III and recieved a Graduation SPOK🎉 and also have a certificate from Near Blockchain as a Smart Contract Developer.🥳  ",
+        "Over the years, I’ve built a deep understanding of blockchain technology and its real-world use cases, including dApps, DeFi, DAOs, and NFTs. I enjoy writing smart contracts across various ecosystems such as Ethereum, StarkNet, NEAR Protocol, Cartesi (an optimistic rollup Layer 2), and Lisk.I’ve contributed to existing blockchain projects and earned bounties for my work—proof that I don’t just study the tech, I apply it. Simply put, I love writing smart contracts and pushing the limits of what’s possible in decentralized systems.I’m also passionate about sharing knowledge and would love to become a StarkNet smart contract tutor or instructor. I graduated from StarkNet Basecamp III, earning a shiny SPOK 🎉, and I’m also certified as a Smart Contract Developer by the NEAR Blockchain, Lisk Ecosystem(a layer II scalling solution for ethereum). 🥳",
         
       icon: <BriefcaseIcon className="w-6 h-6" />,
       skills: ["cairo for starknet ", "React/Typecsript for developing frontend for smart contracts", "Solidity for Ehereum", "Ethers.js"],
@@ -40,9 +40,9 @@ const Experience: React.FC = () => {
       title: "Rust Development",
       company: "Web3Clubs",
       location: "",
-      duration: "March 2022 -date ",
+      duration: "March 2024 -date ",
       description:
-        "I have have a one year experience in rust. with rust i have used frameworks like; Actix-web(a web framework for building rust applications), askam(used for templating), Diesel(used diesel for especially connecting to prostgresSql database).I find Rust to be a good language of choice for building blockchain based applications since its a safe, fast and robust language. and do not have a Garbage collector but rather lets you handle storage yourself.",
+        "I have one year of hands-on experience with Rust, and it's quickly become one of my favorite languages—especially for building reliable, high-performance blockchain-based applications.In that time, I’ve worked with several powerful Rust frameworks and libraries, including:Actix Web – a fast, lightweight web framework ideal for building scalable APIs and web services,Askama – a type-safe templating engine for rendering dynamic content,Diesel – a robust ORM that I’ve used extensively to interact with PostgreSQL databases.What draws me to Rust is its unique balance of speed, safety, and control. Unlike garbage-collected languages, Rust empowers developers to manage memory manually—but in a safe and predictable way. This results in fewer runtime errors and highly optimized performance, which is critical in blockchain environments where both security and efficiency are non-negotiable.Rust's strong type system, fearless concurrency, and low-level control make it an excellent choice for developing secure, scalable, and robust decentralized systems.",
         
       icon: <GiSadCrab  className="w-6 h-6" />,
       skills: ["Rust", "Actix-web", "Askama", "Diesel"],
@@ -51,15 +51,25 @@ const Experience: React.FC = () => {
       title: "Open souce contribution",
       company: "Onlydust",
       location: "",
-      duration: "March 2022 -date ",
+      duration: "November 202 -date ",
       description:
-        "I llove to contribute to open source projects. i began my journey of open source contribution last year and through that you get improve you expertise and even your knowledge and even recieved a reward for my contribution through onlydust(OdBoost)",
+        "I'm passionate about contributing to open source projects—it's one of the most rewarding parts of my development journey. I started contributing to open source last year, and it's been an incredible way to sharpen my skills, collaborate with other developers, and deepen my understanding of real-world codebases.Open source isn’t just about code for me—it’s about community, learning, and growing together as developers.",
         
       icon: <FaGithub className="w-6 h-6" />,
       skills: ["Rust", "Actix-web", "Askama", "Diesel"],
     },
     {
-      title: "Freelance Web Developer",
+      title: "Full stack Web Developer",
+      company: "Self-employed",
+      location: "Remote",
+      duration: "2020 - 2024",
+      description:
+        "A proactive full-stack developer passionate about creating dynamic web experiences. From frontend to backend, I thrive on solving complex problems with clean, efficient code. My expertise spans React, Next.js, and Node.js, and I'm always eager to learn more.When I'm not coding, I'm exploring new ideas and staying curious. Life's about balance, and I love embracing every part of it.I believe in waking up each day eager to make a difference!",
+      icon: <CodeIcon className="w-6 h-6" />,
+      skills: ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+    },
+    {
+      title: "App Developer",
       company: "Self-employed",
       location: "Remote",
       duration: "2020 - 2024",

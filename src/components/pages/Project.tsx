@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 // import { Globe, Github } from "lucide-react";
 
 import chatImage from "../../assets/projects/chat.png";
-import turfImage from "../../assets/projects/turf.png";
+// import turfImage from "../../assets/projects/turf.png";
 import foodImage from "../../assets/projects/food.png";
 import todoImage from "../../assets/projects/todo.png";
 import eStoreImage from "../../assets/projects/estore.png";
@@ -17,31 +17,31 @@ interface Project {
   image: string;
 }
 const projects: Project[] = [
-  {
-    title: "Turf Spot",
+  // {
+  //   title: "Turf Spot",
     
-    technologies: [
-      "React.js",
-      "JavaScript",
-      "Tailwind CSS",
-      "Daisy UI",
-      "Redux Toolkit",
-      "Redux Persist",
-    ],
-    links: [
-      // {
-      //   type: "Website",
-      //   href: "https://turf-spot.vercel.app/",
-      //   icon: <Globe className="w-8 h-8" />,
-      // },
-      // {
-      //   type: "Source",
-      //   href: "https://github.com",
-      //   icon: <Github className="w-8 h-8" />,
-      // },
-    ],
-    image: turfImage,
-  },
+  //   technologies: [
+  //     "React.js",
+  //     "JavaScript",
+  //     "Tailwind CSS",
+  //     "Daisy UI",
+  //     "Redux Toolkit",
+  //     "Redux Persist",
+  //   ],
+  //   links: [
+  //     // {
+  //     //   type: "Website",
+  //     //   href: "https://turf-spot.vercel.app/",
+  //     //   icon: <Globe className="w-8 h-8" />,
+  //     // },
+  //     // {
+  //     //   type: "Source",
+  //     //   href: "https://github.com",
+  //     //   icon: <Github className="w-8 h-8" />,
+  //     // },
+  //   ],
+  //   image: turfImage,
+  // },
   {
     title: "Expense Tracker",
     
@@ -96,7 +96,7 @@ const projects: Project[] = [
     image: chatImage,
   },
   {
-    title: "Food Delivery App",
+    title: "Learning LMS for Starknet blockchain",
     
     technologies: [
       "React.js",
@@ -105,8 +105,8 @@ const projects: Project[] = [
       "Express.js",
       "Node.js",
       "Tailwind CSS",
-      "Stripe",
-      "Zustand",
+      "Cairo"
+     
     ],
     links: [
       // {

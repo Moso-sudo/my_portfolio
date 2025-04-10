@@ -4,12 +4,14 @@ import { useInView } from "react-intersection-observer";
 import { DockDemo } from "../ui/DockDemo";
 import ParticlesDemo from "../ui/Particles";
 import Header from "./Header";
+
 import About from "./About";
 import Experience from "./Experience";
 import SkillsSection from "./SkillSection";
 import ProjectsSection from "./Project";
 import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Skills from "./Skills";
+
 
 interface AnimatedSectionProps {
   children: ReactNode;
@@ -84,7 +86,8 @@ const AnimatedSection:React.FC<AnimatedSectionProps> = ({ children }) => {
 function Portfolio() {
   return (
     <>
-    <Navbar/>
+   
+    
     <div className="min-h-screen flex flex-col items-center justify-center">
     
     <ParticlesDemo />
@@ -110,7 +113,10 @@ function Portfolio() {
       </AnimatedSection>
       <AnimatedSection>
         <SkillsSection />
+        
       </AnimatedSection>
+
+      
       <AnimatedSection>
         <ProjectsSection />
       </AnimatedSection>

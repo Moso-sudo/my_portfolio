@@ -5,18 +5,20 @@ import IconCloud from "@/components/magicui/icon-cloud";
 import { useInView } from "react-intersection-observer";
 
 const slugs = [
+  "html5",
   "typescript",
   "javascript",
-  "postman",
   "react",
-  "html5",
-  "css3",
+  "Nextjs",
+  "postman/thunderClient/insomnia",
+  "Tailwind/Bootstrap",
   "express",
   "Rust",
   "git",
   "github",
-  "visualstudiocode",
- 
+  "mongoDb",
+  "Solidity",
+ "cairo"
 ];
 
 const SkillsSection: React.FC = () => {
@@ -58,7 +60,7 @@ const SkillsSection: React.FC = () => {
   return (
     <motion.div
       ref={ref}
-      className="w-full max-w-6xl mx-auto p-4 sm:p-6 lg:p-8 bg-background rounded-xl shadow-lg mt-10   mb-6"
+      className="w-400px max-w-6xl mx-auto p-4 sm:p-6 lg:p-8 bg-background rounded-xl shadow-lg mt-10   mb-6"
       variants={containerVariants}
       initial="hidden"
       animate={controls}
@@ -77,7 +79,7 @@ const SkillsSection: React.FC = () => {
           whileTap={{ scale: 0.95 }}
           transition={{ duration: 0.5 }}
         >
-          <IconCloud iconSlugs={slugs} />
+          {/* <IconCloud iconSlugs={slugs} /> */}
         </motion.div>
 
         <motion.div

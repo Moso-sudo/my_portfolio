@@ -56,6 +56,7 @@ const About: React.FC = () => {
           }}
         >
           <img
+          
             src="/me.jpg"
             alt="Moses Mulumia"
             className="w-full h-full object-cover object-left-top"
@@ -73,16 +74,17 @@ const About: React.FC = () => {
           className="text-sm md:text-base text-gray-600 dark:text-gray-400 text-center md:text-left mb-4"
           variants={itemVariants}
         >
-I’m a Smart Contract Developer and Full Stack Web Developer with a focus on building decentralized applications and robust web solutions. I specialize in writing smart contracts using Solidity for Ethereum and Cairo for StarkNet, and I develop dynamic web applications using ReactJS, TypeScript, and Actix Web (a Rust-based web framework). My passion lies in combining blockchain technology with modern web development to create secure, scalable, and innovative systems.
-          My goal is to create efficient, user-friendly, and impactful digital
-          experiences.
+I'm a Smart Contract Developer and Full Stack Web Developer with a strong focus on building decentralized applications and high-performance web solutions. I write smart contracts using Solidity for Ethereum and Cairo for StarkNet, and I build responsive, interactive web applications with ReactJS, TypeScript, and Actix Web, a powerful Rust-based backend framework.
+
+Driven by a passion for blockchain and fintech, I’m always exploring new technologies and tools to stay at the forefront of innovation. My commitment to continuous learning ensures I deliver cutting-edge, secure, and scalable solutions in every project.
         </motion.p>
         <motion.p
           className="text-sm md:text-base text-gray-600 dark:text-gray-400 text-center md:text-left"
           variants={itemVariants}
         >
-          My commitment to continuous learning and exploring Blockchain and fintech ensures cutting-edge solutions
-          for every project. ooh and did i forget i also love and engage open source
+          I’m also an active supporter of the open-source community—I love contributing to projects, sharing knowledge, and collaborating with others to push the ecosystem forward.
+
+
         </motion.p>
       </div>
     </motion.div>
