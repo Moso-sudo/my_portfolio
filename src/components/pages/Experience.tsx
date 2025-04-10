@@ -74,7 +74,7 @@ const Experience: React.FC = () => {
       location: "Remote",
       duration: "2020 - 2024",
       description:
-        "Developing custom web solutions for various clients, specializing in responsive and dynamic websites.",
+        "Currently learning to build applications with React Native.",
       icon: <CodeIcon className="w-6 h-6" />,
       skills: ["HTML", "CSS", "JavaScript", "React", "Node.js"],
     },
