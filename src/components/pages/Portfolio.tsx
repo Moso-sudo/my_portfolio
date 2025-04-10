@@ -10,7 +10,7 @@ import Experience from "./Experience";
 import SkillsSection from "./SkillSection";
 import ProjectsSection from "./Project";
 import Footer from "./Footer";
-import Skills from "./Skills";
+
 
 
 interface AnimatedSectionProps {

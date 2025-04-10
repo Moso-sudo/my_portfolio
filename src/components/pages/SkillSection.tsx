@@ -1,7 +1,7 @@
 import React from "react";
 import { motion, useAnimation } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
-import IconCloud from "@/components/magicui/icon-cloud";
+
 import { useInView } from "react-intersection-observer";
 
 const slugs = [
